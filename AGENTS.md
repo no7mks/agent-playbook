@@ -9,5 +9,5 @@
 - 禁止 rebase。
 - 除同步本地分支与 upstream 同名远端分支外，禁止 fast-forward；合并分支使用 `--no-ff`。
 - Commit message 格式：
-  - `<action>: <中文描述>`，其中 `<action>` 只能是 `+`（新增）、`-`（删除）、`*`（修改）之一。
+  - `<action> <中文描述>`，其中 `<action>` 只能是 `+`（新增）、`-`（删除）、`*`（修改）之一。
   - 最后一行必须是 agent sign-off，格式为：`Signed-off-by: <agent-name>`，其中 `<agent-name>` 应替换为当前执行任务的 Agent 的名字。
